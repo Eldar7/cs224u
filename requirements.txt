@@ -11,8 +11,9 @@ pandas>=1.5
 # torch==2.4.0; sys_platform != "linux" and sys_platform != "win32"
 # for windows or linux
 # torch==2.4.0+${DEVICE}; sys_platform == "linux" or sys_platform == "win32"
-# torchvision
-# torchaudio
+torch==2.4.0
+torchvision
+torchaudio
 transformers>=4.37
 datasets>=2.14.6
 spacy>=3.7.2
